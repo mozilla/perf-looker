@@ -1,4 +1,5 @@
 connection: "perfherder_mysql"
+label: "Firefox Performance"
 
 # include all the views
 include: "/views/**/*.view"

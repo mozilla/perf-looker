@@ -626,6 +626,12 @@ explore: performance_datum {
     relationship: many_to_one
   }
 
+  join: performance_signature {
+    type: left_outer
+    sql_on: ${performance_datum.signature_id} = ${performance_signature.id} ;;
+    relationship: many_to_one
+  }
+
   join: push {
     type: left_outer
     sql_on: ${performance_datum.push_id} = ${push.id} ;;

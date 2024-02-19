@@ -46,4 +46,9 @@ view: performance_benchmark_summary {
     type: string
     sql: ${TABLE}.platform ;;
   }
+
+  measure: geomean_value {
+    type: number
+    sql: ${TABLE}.geomean_value ;;
+  }
 }

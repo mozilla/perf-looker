@@ -34,6 +34,9 @@ include: "/views/**/*.view"
 # }
 
 # explore: auth_user_user_permissions {}
+explore: speedometer3_timeseries {}
+
+explore: speedometer3_desktop_consolidated {}
 
 explore: backfill_notification_record {}
 

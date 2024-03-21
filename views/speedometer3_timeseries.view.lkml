@@ -51,9 +51,9 @@ view: speedometer3_timeseries {
   set: detail {
     fields: [
         push_timestamp_time,
-	application,
-	platform,
-	geomean_value
+  application,
+  platform,
+  geomean_value
     ]
   }
 }
